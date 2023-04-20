@@ -33,7 +33,7 @@ const doctorsappointmentDb = require('./db/model/doctorsappointment')
 const diagnosticresultDb = require('./db/model/diagnosticresult')
 
 // 医院简介表
-const HospitalIntroductionDb = require('./db/model/HospitalIntroduction')
+const HospitalIntroductionDb = require('./db/model/hospitalIntroduction')
 
 app.use(cors());
 app.use(bodyParser());
