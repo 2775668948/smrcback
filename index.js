@@ -1575,7 +1575,7 @@ app.get("/api/patient/getHospitalInfo", async function (req, res) {
 
 
 
-const port = 7788;
+const port = 80;
 app.listen(port, () => {
     console.log(`Server listening on http://localhost:${port}, Ctrl+C to stop`)
 });
